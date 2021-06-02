@@ -1,0 +1,27 @@
+name: storage
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  firebase_storage: ^8.0.3
+  firebase: ^9.0.1
+  firebase_core: ^1.0.4
+  path_provider: ^2.0.1
+
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
